@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.App{
+    max-width: 50%;
+    margin: auto;
+    padding: 1rem 0;
+    height: 100%;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+@media(max-width: 800px){
+    .App{
+        max-width: 90%;
+    }
+    
+}

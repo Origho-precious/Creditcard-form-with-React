@@ -1,0 +1,160 @@
+.Card{
+    background-color: #1C1C1C;
+    color: #FFF;
+    padding: 1rem 3rem 1.5rem;
+    max-width: 70%;
+    height: 250px;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 15px 15px 2px rgb(158, 155, 155);
+    position: relative;
+    z-index: 10;
+}
+
+.CardNumber{
+    margin: 1rem 0;
+    border: 1px solid #FFF;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.CardNumber span{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.CardDetails{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CardDetails div{
+    opacity: 0.9;
+    margin-top: 1.5rem;
+}
+
+.CardDetails div h5{
+    font-weight: 100;
+}
+
+.CardDetails div p{
+    margin-top: 0.6rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+@media(min-width: 801px) and (max-width: 1290px){
+    .Card{
+        padding: 1rem 2rem 1.5rem;
+        max-width: 70%;
+        height: 220px;
+        font-size: 12px;
+    }
+
+    .CardNumber span{
+        display: inline-block;
+        margin-left: 0.5rem;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 800px){
+    .Card{
+        padding: 1rem 2rem 1.5rem;
+        max-width: 60%;
+        height: 220px;
+        font-size: 12px;
+    }
+
+    .CardNumber span{
+        display: inline-block;
+        margin-left: 0.5rem;
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width: 600px){
+    .Card{
+        padding: 1rem 2rem 1.5rem;
+        max-width: 90%;
+        height: 220px;
+        font-size: 12px;
+    }
+    
+    .CardNumber{
+        margin: 1rem 0;
+        border: 1px solid #FFF;
+        padding: 10px;
+        border-radius: 7px;
+    }
+    
+    .CardNumber span{
+        display: inline-block;
+        margin-left: 0.5rem;
+        font-size: 14px;
+    }
+    
+    .CardDetails{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .CardDetails div{
+        opacity: 0.9;
+        margin-top: 1.5rem;
+    }
+    
+    .CardDetails div h5{
+        font-weight: 100;
+    }
+    
+    .CardDetails div p{
+        margin-top: 0.6rem;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+}
+
+@media(max-width: 400px){
+    .Card{
+        height: 180px;
+        font-size: 11px;
+        text-align: left;
+    }
+    
+    .CardNumber{
+        padding: 10px 5px;
+        border-radius: 7px;
+    }
+    
+    .CardNumber span{
+        font-size: 12px;
+    }
+    
+    .CardDetails{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .CardDetails div{
+        opacity: 0.9;
+        margin-top: 1.5rem;
+    }
+    
+    .CardDetails div h5{
+        font-weight: 100;
+    }
+    
+    .CardDetails div p{
+        margin-top: 0.6rem;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+}
+
